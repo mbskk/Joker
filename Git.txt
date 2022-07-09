@@ -1,0 +1,28 @@
+* GIT :
+............
+git add (filename)
+git log
+git status
+git commit -m " " (filename)
+git config user.name (username)
+git config user.email (email id)
+history | grep (alphabet/word)
+history | sed -n 'X,Yp'
+vi .gitignore
+git init => to intialize git
+git rm -r (filename)  => to remove a file from git
+git log - - summary
+git log - _ oneline
+
+Git branches :
+===========
+git branch  => to list branches
+git branch -a  => to list all branches including remote
+git branch (branch name)  => to create new branch
+git branch -d (branch name )  => to delete a branch
+git branch -m (target branch name)  => to merge branches
+git checkout (branch name)  => to switcg from branch to branch
+git checkout -  => to switch last branch
+git merge (active branch name)  => to merge in to a active branch
+git merge (source branch) (target branch)  => to merge from source file to target file
+git checkout - - (filename)  => to discard changes to a file
