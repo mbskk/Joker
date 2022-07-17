@@ -1,0 +1,29 @@
+df ==> used to check disc space
+df -h ==> to get the output in human readable format
+df -k ==> shows output in kilobytes
+df -m ==> shows output in megabytes
+df --output=field,field2 ==> shows required fields in the output
+df -o ==> prints all the available fields
+df -i ==> shows inode usage
+df -i -h ==> shows inode usage in human readable format
+df -T ==> prints types of the filesystem
+df -T -h ==> prints output in human readable format
+df -T -h /destination file
+df -t {type of the filesystem} ==> prints specified filesystem in the output
+df -x {type of the filesystem} ==> excludes specified filesystem in the output
+df -a ==> it prints all the available fields in the disc
+
+du  ==> displays the amount disc space used by the specified files or for  each subdirectory
+
+grep MemTotal /proc/meminfo ==> shows total memory info in kilobytes
+free ==> shows memory information in kb
+free -m ==> shows memory information in mb
+free -k ==> shows memory in kb
+free -h ==> shows memory in human readable format
+free -c {number} ==> shows memory info for ...... times
+free -s {number} ==> shows memoey info for every .....
+free -c {number} -s {number} ==> shows memory for ....times for every .....times
+
+cat /proc/meminfo ==> shows all info in kb
+sar -r ==> shows linux memory historically
+
