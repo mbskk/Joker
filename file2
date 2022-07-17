@@ -1,0 +1,20 @@
+yum install git -y
+git add filename
+git status
+git commit -m "commit message" filename
+git log
+git branch
+git branch branchname
+git checkout branchname
+git checkout -b branchname
+git merge activebranch
+git merge source destination
+git checkout -
+git checkout --
+git branch -d branchname
+git stash
+git stash list
+git stash save {name}
+git stash pop {id}
+git stash apply {id}
+
