@@ -17,4 +17,11 @@ git stash list
 git stash save {name}
 git stash pop {id}
 git stash apply {id}
-
+git stash drop {id}
+git restore filename
+git restore --stagged filename
+git checkout -
+git checkout --
+git config user.name {name}
+git config user.email {email}
+vim .gitignore
